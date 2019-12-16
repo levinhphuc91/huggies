@@ -1,0 +1,6 @@
+AuthName "Password Required - dev.aleph-labs.com"
+AuthType Basic
+AuthBasicProvider file
+AuthUserFile /opt/htdocs/dev_aleph-labs_com/clients/Huggies/.htpasswd
+Require valid-user
+
